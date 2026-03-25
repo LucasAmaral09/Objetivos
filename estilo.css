@@ -14,3 +14,10 @@ body{
     background-color: var(--cor-de-fundo);
     font-family: "Source Serif 4", serif;
 }
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

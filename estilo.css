@@ -20,11 +20,17 @@ body{
     align-items: center;
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto; 
+    margin: 50 auto; 
 }
 
 .titulo-principal{
     text-align: left;
     width: 100%;
     font-size: 32px;
+}
+.titulo-principal span{
+    color:#ffffff
+}
+.botao{ 
+    background-color: var(--botao-inativo);
 }

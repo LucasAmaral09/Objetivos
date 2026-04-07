@@ -47,6 +47,20 @@ body{
         border-radius: 40px 40px 0 0; 
      }
 
-@media screen and {min-width: 768px{
+@media screen and (min-width: 768px){
+    .botao{
+        display:flex;
 
+    }
+    .botao:first-child{
+        border-radius: 40px 0 0;
+
+    }
+.botao.ativo{
+    background-color: var(--botao-inativo);
+    border-bottom: 4px solid cyan;
+}
+
+@media screen and () {
+    
 }

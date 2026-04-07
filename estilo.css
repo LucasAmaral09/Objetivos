@@ -7,30 +7,37 @@
 
 }
 
+
 body{
+    background: var(--cor-de-fundo);
     color: var(--cor-texto-principal);
-    background-color: var(--cor-de-fundo);
-    font-family: "Source Serif 4", serif;
+    font-family: "Bitcount Grid Double Ink", system-ui;
 }
 
-.conteudo-principal{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto; 
-}
 
-.titulo-principal{
-    text-align: middle;
-    width: 100%;
+.conteudo-principal { 
+    justify-content: center; 
+    align-items: center; 
+    max-width: 1200px; 
+    width: 100%; 
+    margin: 0 auto;
+ } 
+    
+    .titulo-principal { 
+    text-align: left; 
+    width: 100%; 
     font-size: 32px;
-}
-.titulo-principal span{
-    color:#ffffff
-}
-.botao{ 
+ }
+  .titulo-principal span  { 
+    color: #620e9e 
+} 
+    
+    .botao { 
     background-color: var(--botao-inativo);
-}
+     display: flex; 
+     justify-content: center; 
+     padding: 1em; 
+     font-size: 18px;
+      align-items: center; 
+      width: 100%;
+     }

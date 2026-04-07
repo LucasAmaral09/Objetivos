@@ -3,7 +3,7 @@
 :root{ 
     --cor-de-fundo: #2c001d; 
     --cor-texto-principal: #ffffff;
-    --cor-texto-secundaria: #ff0000;  
+    --cor-texto-secundaria: #ffffff;  
 
 }
 
@@ -29,7 +29,7 @@ body{
     font-size: 32px;
  }
   .titulo-principal span  { 
-    color: #620e9e 
+    color: #ffffff 
 } 
     
     .botao { 

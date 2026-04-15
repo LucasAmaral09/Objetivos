@@ -4,7 +4,7 @@
     --cor-de-fundo: #B95E82; 
     --cor-texto-principal: #FFECC0;
     --cor-texto-secundaria: #FFECC0;  
-    --botao-ativo: #F39F9F; 
+    --botao-ativo: #b95454; 
     --botao-inativo:#F39F9F; 
 }
 
@@ -53,7 +53,7 @@ body{
         border-radius: 40px 40px 0 0; 
      }
 
-     botao.ativo {
+     .botao.ativo {
         background-color: var(--botao-ativo);
         border-bottom: 4px solid #F39F9F
 
@@ -69,10 +69,7 @@ body{
      }
 
 
-.botao.ativo{
-    background-color: var(--botao-inativo);
-    border-bottom: 4px solid #F39F9F;
-}
+
 .abas-texto{
     background-color: var(--botao-inativo);
     padding: 40px;

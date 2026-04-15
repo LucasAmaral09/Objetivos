@@ -68,15 +68,7 @@ body{
         border-radius: 0 0 40px 40px;
      }
 
-@media screen and (min-width: 768px){
-    .botao{
-        display:flex;
 
-    }
-    .botao:first-child{
-        border-radius: 40px 0 0;
-
-    }
 .botao.ativo{
     background-color: var(--botao-inativo);
     border-bottom: 4px solid #F39F9F;
@@ -91,5 +83,18 @@ body{
     font-size: 28px;
     text-align: center;
 }
-    
+
+
+@media screen and (min-width: 768px){
+    .botao{
+        display:flex;
+
+    }
+    .botao:first-child{
+        border-radius: 40px 0 0;
+
+    }
 }
+
+    
+

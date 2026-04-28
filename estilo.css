@@ -75,8 +75,17 @@ body{
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
+.conteudo-titulo-secundario{
+
+
 
 }
+.contador{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contador-digito
 
 .contador {
     display: flex;

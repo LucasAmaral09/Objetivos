@@ -76,21 +76,20 @@ body{
     border-radius: 0 0 40px 40px;
 }
 .conteudo-titulo-secundario{
-
-
-
+    text-align: flex;
+    color: var(--cor-texto-secundaria)
+    text-transform: uppercase
 }
 .contador{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.contador-digito
 
-.contador {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.contador-digito {
+    padding: 0 10px;
+    text-align: center;
+    min-height: 100px;
 }
 
 .contador-digito {

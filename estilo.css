@@ -76,7 +76,7 @@ body{
     border-radius: 0 0 40px 40px;
 }
 .conteudo-titulo-secundario{
-    text-align: flex;
+    text-align:center;
     color: var(--cor-texto-secundaria);
     text-transform: uppercase
 }
@@ -85,8 +85,6 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
-
-
 
 .contador-digito {
     padding: 0 16px;

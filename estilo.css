@@ -86,11 +86,7 @@ body{
     flex-wrap: wrap;
 }
 
-.contador-digito {
-    padding: 0 10px;
-    text-align: center;
-    min-height: 100px;
-}
+
 
 .contador-digito {
     padding: 0 16px;
@@ -98,7 +94,7 @@ body{
     min-width: 100px;
 }
 
-.contador-digito-numero {
+.contador-digito-numerico {
     font-size: 80px;
     margin: 0;
 }

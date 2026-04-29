@@ -77,7 +77,7 @@ body{
 }
 .conteudo-titulo-secundario{
     text-align: flex;
-    color: var(--cor-texto-secundaria)
+    color: var(--cor-texto-secundaria);
     text-transform: uppercase
 }
 .contador{

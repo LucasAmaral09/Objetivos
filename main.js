@@ -10,6 +10,16 @@ for (let i = 0; i<botoes.length;i++){
             textos [j]. classList.remove("ativo")
         }         
             botoes [i]. classList.add("ativo")
-            textos [i]. classList.add("ativo")                                                                                    )
+            textos [i]. classList.add("ativo")
+        
+function atualizarCronometro() {
+    const [dias, horas, minutos, segundos] = calculaTempo
+
+    if(numeros.lenght >=0){
+        numeros[0].textContent = dias
+        numeros[1].textContent = horas
+        numeros[2].textContent = minutos
+        numeros[3].textContent = segundos
     }
 }
+function comecaCronometro
